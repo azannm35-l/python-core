@@ -22,4 +22,3 @@ booking.show_avalible_seats()
 
 
 
-    
