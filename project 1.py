@@ -5,7 +5,7 @@ class ticketbooker:
     def book_seat(self):
         if self.booked_seat < self.total_seat:
          self.booked_seat+=1 
-         print("your seat is booked ")
+         print("your seat is booked")
         else:
            print("insuficient seat avalible")
     def show_avalible_seats(self):
@@ -21,4 +21,4 @@ booking.show_avalible_seats()
 
 
 
-
+#added comment just to check the git 
