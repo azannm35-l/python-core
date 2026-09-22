@@ -764,3 +764,7 @@ name= " saad",
 age= 20,
 )
 
+name=["ahmad" "Mubeen" "awais"]
+marks=[ 90,50,45]
+result=zip(name,marks)
+print(list(result))

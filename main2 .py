@@ -688,3 +688,24 @@ s1=student()
 s2=student()
 s3=student()
 student.show_total() 
+
+
+number=[1,33,5,6,88,98,45,67]
+even=[]
+odd=[]
+for number in number:
+    if number %2 ==0:
+        even.append(number)
+    else:
+        odd.append(number)
+print("even",even)
+print("odd",odd)
+
+
+numbers = [2, 5, 2, 8, 2, 10, 5]
+search = int(input(" enter  the number "))
+count= 0 
+for number in numbers:
+    if number == search:
+        count= count+ 1
+print(count)
